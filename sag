@@ -1,0 +1,137 @@
+[33mcommit 172223efaa6804e98998cffcd3f915a9207e5ec2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:44:02 2017 -0500
+
+    parallax issues
+
+[33mcommit e18a47d2fa6ce937119e61f7e025b4aff8ccfbeb[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:38:11 2017 -0500
+
+    parallax positioning
+
+[33mcommit 5932dc382a9e9cf61bc84b9c38977b14b8dc50fa[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:34:27 2017 -0500
+
+    parallax issues
+
+[33mcommit 9137b0bcc46a30e9c61e648ae196856f419f3270[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:27:16 2017 -0500
+
+    gallery header
+
+[33mcommit 45aa5a86208a71889a5ea1406da9b89b0c32def4[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:24:55 2017 -0500
+
+    parallax position
+
+[33mcommit 9be22cd52428d00d8e0ff7bc79ed5ff63f53da1e[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:23:18 2017 -0500
+
+    parallax position
+
+[33mcommit 1190e6813d27d30d0a058f14263421df0996108b[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 17:19:43 2017 -0500
+
+    fixing parallax mobile
+
+[33mcommit 86e1c75e1940267c0994c458f1c4e713837521b8[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 15:38:28 2017 -0500
+
+    pics not working still
+
+[33mcommit f6c1e371e6701b867adfd9e188c0a498a5baedd7[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 15:36:30 2017 -0500
+
+    fix pics 2
+
+[33mcommit aa5cde817a09719419c601a1438bbe0e8bac0e11[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 15:33:00 2017 -0500
+
+    edit pics to fit
+
+[33mcommit 461cbf794e1ed911d0b66b32aeefb3f920269dae[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Wed Nov 22 15:23:22 2017 -0500
+
+    parallax and PNG
+
+[33mcommit aa03846bdf30fcd2d3b59446fb6b36c612cecc3f[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 23:06:12 2017 -0500
+
+    more pic work
+
+[33mcommit 817a8c9e5528a3a016f92d23a13fbd3973001e7e[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 23:01:12 2017 -0500
+
+    fixed responsive css
+
+[33mcommit ff3486d634f0e20aeaa704dd7a1605410c1270ae[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:57:18 2017 -0500
+
+    fixed more pics
+
+[33mcommit 930c7a025691c3c410cf16885df6865e74261efc[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:50:08 2017 -0500
+
+    more bugs in style.css fixed
+
+[33mcommit efdb731634ee54dd71a0749e998e60bb8d0f6fa8[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:47:32 2017 -0500
+
+    change style.css png
+
+[33mcommit 307d8170595fb5d414cdc442e308835b83112f69[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:45:22 2017 -0500
+
+    change png to upper
+
+[33mcommit 559aafd75d91c70ee1358710fa14a0803abc710b[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:40:06 2017 -0500
+
+    404 for some pics
+
+[33mcommit 6528bac8e9c38d2e0748ac1f3a6230e00e64f802[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 22:11:18 2017 -0500
+
+    modify f missing pics
+
+[33mcommit 6acc326e97ce191f65bcb8f241968ddd089471eb[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 21:52:42 2017 -0500
+
+    css changes
+
+[33mcommit a7463bfcee3f656f6d48ca6a891c92fd3fa8b5d0[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 21:44:58 2017 -0500
+
+    Change listen port
+
+[33mcommit ad00f51d695c3df6996c86142b4074484fbd8fed[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 21:35:36 2017 -0500
+
+    add start script
+
+[33mcommit 8b299405a867725b6791e3ffd9d6a5298816b623[m
+Author: Gerard <gmoneymaster24@yahoo.com>
+Date:   Tue Nov 21 21:24:41 2017 -0500
+
+    initial commit

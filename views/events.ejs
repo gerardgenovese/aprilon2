@@ -1,0 +1,392 @@
+<%include partials/header%>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand"><img src="logo/logoapril.png" height="50em"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/events" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <!--Video-->
+    <section id="video-header" class=" container-vid mt-5 pt-4">
+        <div class="video-container">
+                <video src="public/video/april_vid.mp4" frameborder="0" allowfullscreen autoplay="true" loop="true" controls muted></video>
+                <div class="video-overlay"></div> 
+                <section id="video-play_events">
+                        <div class="no-overlay">
+                            <div class="row"> 
+                                <div class="col"> 
+                                    <div class="container my-5 py-5"> 
+                                        <a href="#" class="video" data-video="https://www.youtube.com/embed/ioMwTrmuF3A" data-toggle="modal" data-target="#videoModal">
+                                        <i class="fa fa-play play"></i>
+                                        </a>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+        </div>   
+    </section>
+    <!--Video END-->
+
+ <!-- CARD DECK -->
+    <section id="events">
+        <div class="container">
+            <h2 class="text-center text-light pt-4">Upcoming Events</h2>
+            <div class="row"> <!--no-gutter-->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">6 week Salsa Series</h4>
+                                <img src="public/pics/events/aprilSalsaEvent.jpg" class="card-img-top">
+                                <p class="card-text"><h5>Beg. 1 & Adv-Beg. 2</h5>Mondays: 7:30pm - 8:30pm <br>Location: Latin Moves Dance Studio.</p>
+                                <button id="modalBtn1" class="btn btn-primary btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">6 week Salsa Series</h4>
+                                <img src="public/pics/events/aprilSalsaEvent2.jpg" class="card-img-top">
+                                <p class="card-text"><h5>Advanced Beginners 2</h5>Mondays: 8:30pm - 9:30pm <br>Location: Latin Moves Dance Studio.</p>
+                                <button id="modalBtn2" class="btn btn-success btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Dance Team Salsa</h4>
+                                <img src="public/pics/aprilSalsa.PNG" class="card-img-top">
+                                <p class="card-text"><h5>Invitation Only</h5>Mondays: 9:30pm - 11:00pm <br>Location: Latin Moves Dance Studio.</p>
+                                <button id="modalBtn3" class="btn btn-danger btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Salsa Workshop</h4>
+                                <img src="public/pics/events/aprilSalsaTeach.jpg" class="card-img-top">
+                                <p class="card-text"><h5>Advanced Beginning 1</h5> Tuesdays: 7:30pm - 8:30pm<br>Location: Latin Moves Dance Studio.</p>
+                                <button id="modalBtn4" class="btn btn-primary btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Salsa Ladies Styling</h4>
+                                <img src="public/pics/events/aprilSalsaEventLadies.jpg" class="card-img-top">
+                                <p class="card-text"><h5>Advanced - Intermediate</h5>Tuesdays: 8:30pm - 9:30pm<br>Location: Latin Moves Dance Studio</p>
+                                <button id="modalBtn5" class="btn btn-success btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card-deck pt-4 pb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Dance Team LM Ladies</h4>
+                                <img src="public/pics/events/aprilSalsaDanceTeam.jpg" class="card-img-top">
+                                <p class="card-text"><h5>Invitation Only</h5>Tuesdays: 10:00pm - 11:00pm<br>Location: Latin Moves Dance Studio</p>
+                                <button id="modalBtn6" class="btn btn-danger btn-block d-block">Booking Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!--MODALS-->
+
+    <!--MODAL1-->
+    <div id="simpleModal1" class="modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="card text-center">
+                    <div class="card-header bg-primary text-light">
+                        <span class="closeBtn">&times;</span>
+                        <h3>6 Week Salsa Series</h3>  
+                    </div>
+                    <div class="card-body">
+                            <h4>Beg. 1 & Adv-Beg. 2</h4>
+                        <h4 class="card-title">
+                                $105.00 
+                        </h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                $95.00 - if paid at least 1 week in advance.
+                            </li>
+                            <li class="list-group-item">
+                                24 week advancing program 
+                            </li>
+                            <li class="list-group-item">
+                                Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                            </li>
+                            <li class="list-group-item">
+                                Upon completion drop-in on any Advanced Beginner class.
+                            </li>
+                            <li class="list-group-item">
+                                Mondays from 7:30pm - 8:30pm
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-header bg-primary text-light">
+                        <img src="logo/logoapril.png" height="50em"> 
+                    </div>     
+                </div>
+            </div>
+        </div> 
+    </div>
+
+   
+
+      
+    
+
+    <!--MODAL2-->
+    <div id="simpleModal2" class="modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="card text-center">
+                    <div class="card-header bg-primary text-light">
+                        <span class="closeBtn">&times;</span>
+                        <h3>6 Week Salsa Series</h3>  
+                    </div>
+                    <div class="card-body">
+                            <h4>Advanced Beginners 2</h4>
+                        <h4 class="card-title">
+                                $105.00 
+                        </h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                $95.00 - if paid at least 1 week in advance.
+                            </li>
+                            <li class="list-group-item">
+                                24 week advancing program 
+                            </li>
+                            <li class="list-group-item">
+                                Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                            </li>
+                            <li class="list-group-item">
+                                Upon completion drop-in on any Advanced Beginner class.
+                            </li>
+                            <li class="list-group-item">
+                                Mondays from 8:30pm - 9:30pm
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-header bg-primary text-light">
+                        <img src="logo/logoapril.png" height="50em"> 
+                    </div>     
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--MODAL3-->
+    <div id="simpleModal3" class="modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="card text-center">
+                    <div class="card-header bg-primary text-light">
+                        <span class="closeBtn">&times;</span>
+                        <h3>Dance Team Salsa</h3>  
+                    </div>
+                    <div class="card-body">
+                            <h4>By Invitation</h4>
+                        <h4 class="card-title">
+                                $105.00 
+                        </h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                $95.00 - if paid at least 1 week in advance.
+                            </li>
+                            <li class="list-group-item">
+                                24 week advancing program 
+                            </li>
+                            <li class="list-group-item">
+                                Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                            </li>
+                            <li class="list-group-item">
+                                Upon completion drop-in on any Advanced Beginner class.
+                            </li>
+                            <li class="list-group-item">
+                                Mondays from 9:30pm - 11:00pm;
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-header bg-primary text-light">
+                        <img src="logo/logoapril.png" height="50em"> 
+                    </div>     
+                </div>
+            </div>
+        </div> 
+    </div>
+
+        <!--MODAL4-->
+        <div id="simpleModal4" class="modal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="card text-center">
+                        <div class="card-header bg-primary text-light">
+                            <span class="closeBtn">&times;</span>
+                            <h3>6 week Salsa Series</h3>  
+                        </div>
+                        <div class="card-body">
+                                <h4>Advanced Beginners 1</h4>
+                            <h4 class="card-title">
+                                    $105.00 
+                            </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    $95.00 - if paid at least 1 week in advance.
+                                </li>
+                                <li class="list-group-item">
+                                    24 week advancing program 
+                                </li>
+                                <li class="list-group-item">
+                                    Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                                </li>
+                                <li class="list-group-item">
+                                    Upon completion drop-in on any Advanced Beginner class.
+                                </li>
+                                <li class="list-group-item">
+                                    Tuesdays from 7:30pm - 8:30pm;
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-header bg-primary text-light">
+                            <img src="logo/logoapril.png" height="50em"> 
+                        </div>     
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!--MODAL5-->
+       <div id="simpleModal5" class="modal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="card text-center">
+                        <div class="card-header bg-primary text-light">
+                            <span class="closeBtn">&times;</span>
+                            <h3>Salsa Ladies Styling</h3>  
+                        </div>
+                        <div class="card-body">
+                                <h4>Advanced - Intermidate</h4>
+                            <h4 class="card-title">
+                                    $105.00 
+                            </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    $95.00 - if paid at least 1 week in advance.
+                                </li>
+                                <li class="list-group-item">
+                                    24 week advancing program 
+                                </li>
+                                <li class="list-group-item">
+                                    Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                                </li>
+                                <li class="list-group-item">
+                                    Upon completion drop-in on any Advanced Beginner class.
+                                </li>
+                                <li class="list-group-item">
+                                    Tuesdays from 8:30pm - 9:30pm;
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-header bg-primary text-light">
+                            <img src="logo/logoapril.png" height="50em"> 
+                        </div>     
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!--MODAL6-->
+        <div id="simpleModal6" class="modal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="card text-center">
+                        <div class="card-header bg-primary text-light">
+                            <span class="closeBtn">&times;</span>
+                            <h3>Dance Team LM Ladies</h3>  
+                        </div>
+                        <div class="card-body">
+                                <h4>Invitation Only</h4>
+                            <h4 class="card-title">
+                                    $105.00 
+                            </h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    $95.00 - if paid at least 1 week in advance.
+                                </li>
+                                <li class="list-group-item">
+                                    24 week advancing program 
+                                </li>
+                                <li class="list-group-item">
+                                    Start with Beg. 1, then Beg. 2, then Adv-Beg. 1, and lastly Adv-Beg. 2.
+                                </li>
+                                <li class="list-group-item">
+                                    Upon completion drop-in on any Advanced Beginner class.
+                                </li>
+                                <li class="list-group-item">
+                                    Tuesdays from 10:00pm - 11:00pm;
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-header bg-primary text-light">
+                            <img src="logo/logoapril.png" height="50em"> 
+                        </div>     
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+         <!--Video Modal-->
+         <div class="modal fade" id="videoModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                            <iframe src="" height=350 width="100%" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <%include partials/footer%>
+
+

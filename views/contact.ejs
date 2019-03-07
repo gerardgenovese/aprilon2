@@ -1,0 +1,83 @@
+<%include partials/header%>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand"><img src="logo/logoapril.png" height="50em"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/events" class="nav-link">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <section id="contact">
+        <div class="container container-contact rounded">
+            <div class="wrapper mt-5 pt-5 animated bounceInDown">
+                <div class="company-info">
+                    <div class="row contact-row">
+                        <div class="col-lg-4 contact-info">
+                            <h3>April On 2</h3>
+                            <ul>
+                                <li class="contact-fa"><i class="fa fa-address-card"></i> Contact April</li>
+                                <li class="contact-fa"><i class="fa fa-phone"></i> (718) 839-5240</li>
+                                <li class="contact-fa"><i class="fa fa-envelope"></i> aprildelarosaon2@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="contact">
+                                <h5 class="modal-title">Email Me</h5> 
+                            </div>
+                            <div class="alert bg-success text-light">Your Message has been sent</div>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <p class="inline-block">
+                                        <label>Name</label>
+                                        <input class="form-control" type="text" name="name" id="name" required>
+                                    </p>
+                                    <!-- <p>
+                                        <label>Company</label>
+                                        <input class="form-control" type="text" name="company" id="company">
+                                    </p> -->
+                                    <p>
+                                        <label>Email Address</label>
+                                        <input class="form-control" type="email" name="email" id="email" required>
+                                    </p>
+                                    <p>
+                                        <label>Phone Number</label>
+                                        <input class="form-control" type="text" name="phone" id="phone">
+                                    </p>
+                                    <p class="full">
+                                        <label>Message</label>
+                                        <textarea class="form-control" name="message" rows="5" id="message"></textarea>
+                                    </p>
+                                    <p class="full">
+                                        <button class="btn btn-primary btn-block d-block" type="submit">Submit</button>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>    
+                    </div>
+                </div>
+            </div>    
+        </div> 
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+
+
+    <%include partials/footer%>

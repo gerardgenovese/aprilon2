@@ -1,0 +1,505 @@
+html {
+    height: 100%;
+    box-sizing: border-box; }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit; }
+  
+  body {
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding-bottom: 5rem;
+    min-height: 100%;
+  }
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8); }
+  button {
+    cursor: pointer; }
+  
+  a:link {
+    text-decoration: none; }
+
+
+  #slider3 img {
+    margin-top: 6%; }
+  
+  .social i {
+    padding: 2rem;
+    font-size: 40px; }
+  
+  #about {
+    margin-bottom: 40px; }
+  
+  .info-header .about-header {
+    text-align: left;
+    padding-left: 20px; }
+  
+  .info-header p {
+    padding: 0 4px; }
+  
+  .card-home-pic img {
+    width: 100%; }
+  
+  #parallax-heading {
+    position: relative;
+    min-height: 300px;
+    background: url("/public/pics/aprilTeaching.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: -500px 0;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff; }
+  
+  .dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  
+  #enjoy-experience {
+    background-color: #476b83; }
+  
+  #lessons {
+    background-color: #476b83; }
+  
+    #video-play_1{
+      background:url('/public/pics/aprilSalsaAc.jpg');
+      background-repeat:no-repeat;
+      background-position:0 -120px;
+      text-align:center;
+      color:#fff;
+  }
+  #video-play_1 a{
+      color:#fff;
+      font-size: 40px;
+      border: none;
+      outline: 0
+  }
+  #video-play_2{
+      background:url('/public/pics/aprilTeachGroup.PNG');
+      background-repeat:no-repeat;
+      background-position:center;
+      text-align:center;
+      color:#fff;
+  }
+  #video-play_2 a{
+      color:#fff;
+      font-size: 40px;
+      border: none;
+      outline: 0
+  }
+  #video-play_3{
+      background:url('/public/pics/louieandaprilAc.jpg');
+      background-repeat:no-repeat;
+      background-position:0 -90px;
+      text-align:center;
+      color:#fff;
+  }
+  #video-play_3 a{
+      color:#fff;
+      font-size: 40px;
+      border: none;
+      outline: 0
+  }
+  
+  .fa-arrow {
+    cursor: pointer; }
+  
+  #main-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #383858;
+    width: 100%; }
+  
+  /*----------------------EVENTS-------------------------*/
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 1%; }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto !important; }
+  
+  .video-overlay {
+    height: 100% !important;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.85; }
+  
+  #events {
+    background-color: #476b83; }
+  
+  /*------EVENTS--MODAL BOOKING INFO--EVENTS-----------*/
+  /* optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: #FF0000; }
+  
+  .closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff; }
+  
+  .closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  
+  /*----------------------GALLERY-------------------------*/
+  .quote {
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -0;
+    margin-top: 250px; }
+  
+  #gallery-header {
+    background: url("/public/pics/aprilHeader.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-top: 6%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    z-index: -1; }
+  
+  /*----------------------CONTACT-------------------------*/
+  #section {
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tohoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto; }
+  
+  .contact-row {
+    margin-bottom: 4%; }
+  
+  .container-contact {
+    background-color: #c5d4df;
+    margin: 0 auto;
+    margin-top: 6%; }
+  
+  .contact-info h3 {
+    text-align: center; }
+  
+  .contact-fa {
+    list-style-type: none;
+    padding: 1%;
+    margin-top: 5%; }
+  
+  .modal-title {
+    text-align: center; }
+  
+  .alert {
+    text-align: center;
+    display: none;
+    margin: 0 auto; }
+  
+  /*------------------------------MEDIA QUERY 960 PX-----------------------------*/
+  @media (max-width: 960px) {
+    /*-----------------INDEX--HOME-------------*/
+    #slider3 img {
+      margin-top: 9.7%; }
+      .social {
+        margin: 0 auto; }
+      .social i {
+        text-align: center; }
+    #video-play_1 {
+      background: url("/public/pics/aprilSalsaAc.jpg");
+      background-repeat: no-repeat;
+      background-position: -100px -100px;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_1 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    #video-play_2 {
+      background: url("/public/pics/aprilTeachGroup.PNG");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_2 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    #video-play_3 {
+      background: url("/public/pics/louieandaprilAc.jpg");
+      background-repeat: no-repeat;
+      background-position: 0 -20px;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_3 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    /*---------EVENTS--------------*/
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+      overflow: hidden;
+      background-color: black; }
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto !important; }
+    .video-overlay {
+      height: 49vh;
+      width: 100vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #225470;
+      z-index: 1;
+      opacity: 0.85; }
+    .no-gutter > [class*='col-'] {
+      padding-right: 0;
+      padding-left: 0; }
+    /*----EVENTS--MODAL BOOKING INFO--EVENTS-----*/
+    html {
+      overflow: scroll;
+      overflow-x: hidden; }
+    ::-webkit-scrollbar {
+      width: 0px;
+      /* remove scrollbar space */
+      background: transparent;
+      /* optional: just make scrollbar invisible */ }
+    /*------------GALLERY-------------*/
+    #gallery-header {
+      position: relative;
+      background: url("/public/pics/aprilHeader.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      height: 500px;
+      background-position: 0 78px;
+      /* transform: scaleX(-1); */
+      background-size: 100% 100%;
+      -webkit-background-size: 100% 50%;
+      -moz-background-size: 100% 50%;
+      -o-background-size: 100% 50%; }
+    .quote {
+      left: 0;
+      right: 0;
+      position: fixed;
+      z-index: -0;
+      margin-top: 24%; }
+    /*-----------CONTACT PAGE------------*/
+    #section {
+      line-height: 1.6;
+      font-family: 'Segoe UI', Tohoma, Geneva, Verdana, sans-serif;
+      margin: 0 auto; }
+    .container-contact {
+      margin-top: 9.7%; } }
+  
+  /*------------------------MEDIA QUERY 768PX----------------------------*/
+  @media (max-width: 768px) {
+    /*-------INDEX-----------*/
+    .navbar {
+      margin: 0 auto; }
+    .navbar-collapse {
+      background-color: #fff;
+      border-radius: 4px; }
+    .navbar-collapse li {
+      padding-left: 5px; }
+    .navbar-collapse li:hover {
+      background-color: #bcbce4;
+      border-radius: 3px; }
+    .social {
+      margin: 0 auto; }
+    .social i {
+      text-align: center;
+      padding: 1rem; }
+    .navbar img {
+      width: 8rem;
+      height: 3rem;
+      margin-left: -30px; }
+    #slider3 img {
+      margin-top: 23%; }
+    .carousel-indicators li {
+      visibility: hidden; }
+    #home-events img {
+      margin-top: 0;
+      padding-top: 0; }
+    /* .row .card-img-top {
+      width: 14rem; } */
+    #parallax-heading {
+      position: relative;
+      min-height: 300px;
+      background: url("/public/pics/aprilTeaching.jpg");
+      background-repeat: no-repeat;
+      background-position: -250px 0;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      text-align: center;
+      color: #fff; }
+    .dark-overlay {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.7);
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .card-info {
+      margin-left: 0;
+      margin-right: 0; }
+    .card .card-header {
+      text-align: center; }
+    #video-play_1 {
+      background: url("/public/pics/aprilSalsaAc.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_1 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    #video-play_2 {
+      background: url("/public/pics/aprilTeachGroup.PNG");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_2 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    #video-play_3 {
+      background: url("/public/pics/louieandaprilAc.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_3 a {
+      color: #fff;
+      font-size: 40px;
+      border: none;
+      outline: 0; }
+    
+    /*--------EVENTS--------*/
+    #video-play_events {
+      background: url("");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #fff;
+      background-size: 100vw 50vh; }
+    #video-play_events a{
+      color:#fff;
+      font-size: 40px;
+      border: none;
+      outline: 0;
+      z-index: 99;
+    }
+    .play{
+      /* transform: translateY(-100%); */
+      margin: 0 auto;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+      overflow: hidden;
+      background-color: black; }
+    .video-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto !important; }
+    .video-overlay {
+      height: 43.8vh;
+      width: 100vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #225470;
+      z-index: 0;
+      opacity: 0.85; }
+    /*----EVENTS--MODAL BOOKING INFO--EVENTS-----*/
+    html {
+      overflow: scroll;
+      overflow-x: hidden; }
+    ::-webkit-scrollbar {
+      width: 0px;
+      /* remove scrollbar space */
+      background: transparent;
+      /* optional: just make scrollbar invisible */ }
+    /*------------GALLERY-------------*/
+    #gallery-mobile-header {
+      position: relative;
+      min-height: 300px;
+      background: url("/public/pics/aprilHeader768.png");
+      /* background-attachment: fixed; */
+      background-repeat: no-repeat;
+      background-position: 0 78px;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      text-align: center;
+      color: #fff; }
+      .quote-mobile {
+        left: 0;
+        right: 0;
+        z-index: -0;
+        margin-top: 20%;
+      }
+    #section {
+      line-height: 1.6;
+      font-family: 'Segoe UI', Tohoma, Geneva, Verdana, sans-serif;
+      margin: 0 auto; }
+    .container-contact {
+      margin-top: 23%; } 
+    }
+
+
